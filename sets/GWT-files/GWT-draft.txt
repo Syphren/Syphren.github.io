@@ -1,0 +1,1508 @@
+[CustomCards]
+	[
+		{
+			"name": "Ragh Nar Roog",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/1_Ragh Nar Roog.png"
+			}
+		},
+		{
+			"name": "Sheldon Skaggs",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Dwarf Soldier",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/64_Sheldon Skaggs.png"
+			}
+		},
+		{
+			"name": "Marching Orders",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/57_Marching Orders.png"
+			}
+		},
+		{
+			"name": "Commander's Horn",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/2_Commander's Horn.png"
+			}
+		},
+		{
+			"name": "Morvudd",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/79_Morvudd.png"
+			}
+		},
+		{
+			"name": "Decoy",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/24_Decoy.png"
+			}
+		},
+		{
+			"name": "Ale of the Ancestors",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/96_Ale of the Ancestors.png"
+			}
+		},
+		{
+			"name": "Reinforced Ballista",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/13_Reinforced Ballista.png"
+			}
+		},
+		{
+			"name": "Freya's Blessing",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/76_Freya's Blessing.png"
+			}
+		},
+		{
+			"name": "Letho of Gulet",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Witcher",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/41_Letho of Gulet.png"
+			}
+		},
+		{
+			"name": "Rock Barrage",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/60_Rock Barrage.png"
+			}
+		},
+		{
+			"name": "Necromancy",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/43_Necromancy.png"
+			}
+		},
+		{
+			"name": "Temerian Drummer",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/16_Temerian Drummer.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/5_Soldier.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/25_Treasure.png"
+			}
+		},
+		{
+			"name": "Sigismund Dijkstra",
+			"rarity": "common",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/92_Sigismund Dijkstra.png"
+			}
+		},
+		{
+			"name": "Harald the Cripple",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/55_Harald the Cripple.png"
+			}
+		},
+		{
+			"name": "Harpy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Harpy",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/10_Harpy.png"
+			}
+		},
+		{
+			"name": "Dimeritium Bomb",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/26_Dimeritium Bomb.png"
+			}
+		},
+		{
+			"name": "Geralt of Rivia",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Witcher",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/89_Geralt of Rivia.png"
+			}
+		},
+		{
+			"name": "Schirrú",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/91_Schirrú.png"
+			}
+		},
+		{
+			"name": "Bekker's Dark Mirror",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/21_Bekker's Dark Mirror.png"
+			}
+		},
+		{
+			"name": "Dudu",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Relict",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/28_Dudu.png"
+			}
+		},
+		{
+			"name": "Arachas Nest",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/51_Arachas Nest.png"
+			}
+		},
+		{
+			"name": "Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Drone",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/13_Drone.png"
+			}
+		},
+		{
+			"name": "Trained Hawk",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Bird",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/17_Trained Hawk.png"
+			}
+		},
+		{
+			"name": "War Chariot",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/100_War Chariot.png"
+			}
+		},
+		{
+			"name": "Dun Banner",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/4_Dun Banner.png"
+			}
+		},
+		{
+			"name": "Bear",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bear",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/21_Bear.png"
+			}
+		},
+		{
+			"name": "Vesemir",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Witcher",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/18_Vesemir.png"
+			}
+		},
+		{
+			"name": "Triss Merigold",
+			"rarity": "common",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/93_Triss Merigold.png"
+			}
+		},
+		{
+			"name": "Olgierd von Everec",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/12_Olgierd von Everec.png"
+			}
+		},
+		{
+			"name": "Dol Blathanna Archer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/74_Dol Blathanna Archer.png"
+			}
+		},
+		{
+			"name": "Scorch",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/63_Scorch.png"
+			}
+		},
+		{
+			"name": "Tuirseach Bearmaster",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/82_Tuirseach Bearmaster.png"
+			}
+		},
+		{
+			"name": "Impenetrable Fog",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/77_Impenetrable Fog.png"
+			}
+		},
+		{
+			"name": "Harpy Nest",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Harpy Egg",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/30_Harpy Nest.png"
+			}
+		},
+		{
+			"name": "Champion's Charge",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/72_Champion's Charge.png"
+			}
+		},
+		{
+			"name": "Parasite",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/45_Parasite.png"
+			}
+		},
+		{
+			"name": "Reinforcements",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/14_Reinforcements.png"
+			}
+		},
+		{
+			"name": "Arachas Venom",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/70_Arachas Venom.png"
+			}
+		},
+		{
+			"name": "Korathi Heatwave",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/56_Korathi Heatwave.png"
+			}
+		},
+		{
+			"name": "Mardroeme",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/78_Mardroeme.png"
+			}
+		},
+		{
+			"name": "Hideous Feast",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/6_Hideous Feast.png"
+			}
+		},
+		{
+			"name": "Epidemic",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/37_Epidemic.png"
+			}
+		},
+		{
+			"name": "Myrgtabrakke",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Dragon",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/31_Myrgtabrakke.png"
+			}
+		},
+		{
+			"name": "Scepter of Storms",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/99_Scepter of Storms.png"
+			}
+		},
+		{
+			"name": "Mahakam Horn",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/98_Mahakam Horn.png"
+			}
+		},
+		{
+			"name": "Manticore Venom",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/42_Manticore Venom.png"
+			}
+		},
+		{
+			"name": "Bribery",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/23_Bribery.png"
+			}
+		},
+		{
+			"name": "Carroballista",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/52_Carroballista.png"
+			}
+		},
+		{
+			"name": "Plumard",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/46_Plumard.png"
+			}
+		},
+		{
+			"name": "Ghoul",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Necrophage",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/39_Ghoul.png"
+			}
+		},
+		{
+			"name": "Ozzrel",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Necrophage",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/44_Ozzrel.png"
+			}
+		},
+		{
+			"name": "Experimental Remedy",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/38_Experimental Remedy.png"
+			}
+		},
+		{
+			"name": "Artefact Compression",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/20_Artefact Compression.png"
+			}
+		},
+		{
+			"name": "Waylay",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/83_Waylay.png"
+			}
+		},
+		{
+			"name": "Adrenaline Rush",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/67_Adrenaline Rush.png"
+			}
+		},
+		{
+			"name": "Woodland Spirit",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Creature — Relict",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/94_Woodland Spirit.png"
+			}
+		},
+		{
+			"name": "Eredin Bréacc Glas",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/87_Eredin Bréacc Glas.png"
+			}
+		},
+		{
+			"name": "Ciri",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Witcher",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/85_Ciri.png"
+			}
+		},
+		{
+			"name": "Biting Frost",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/22_Biting Frost.png"
+			}
+		},
+		{
+			"name": "Dandelion",
+			"rarity": "common",
+			"mana_cost": "{R}{W}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/86_Dandelion.png"
+			}
+		},
+		{
+			"name": "Whale Harpooner",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/33_Whale Harpooner.png"
+			}
+		},
+		{
+			"name": "Toad Prince",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Frog Noble",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/81_Toad Prince.png"
+			}
+		},
+		{
+			"name": "Rot Tosser",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/48_Rot Tosser.png"
+			}
+		},
+		{
+			"name": "King Henselt",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/9_King Henselt.png"
+			}
+		},
+		{
+			"name": "Francesca Findabair",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Elf Mage",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/88_Francesca Findabair.png"
+			}
+		},
+		{
+			"name": "Roach",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Horse",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/15_Roach.png"
+			}
+		},
+		{
+			"name": "White Frost",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}{B}",
+			"type": "Legendary Enchantment",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/50_White Frost.png"
+			}
+		},
+		{
+			"name": "Undying Thirst",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/65_Undying Thirst.png"
+			}
+		},
+		{
+			"name": "Hym",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Shade",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/40_Hym.png"
+			}
+		},
+		{
+			"name": "Abaya",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Necrophage",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/19_Abaya.png"
+			}
+		},
+		{
+			"name": "Iorveth's Gambit",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/8_Iorveth's Gambit.png"
+			}
+		},
+		{
+			"name": "Ragh Nar Roog",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/2_Ragh Nar Roog.png"
+			}
+		},
+		{
+			"name": "Ragh Nar Roog",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/3_Ragh Nar Roog.png"
+			}
+		},
+		{
+			"name": "Ragh Nar Roog",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/4_Ragh Nar Roog.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/6_Soldier.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/7_Soldier.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/8_Soldier.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/9_Soldier.png"
+			}
+		},
+		{
+			"name": "Bear",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bear",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/22_Bear.png"
+			}
+		},
+		{
+			"name": "Bear",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bear",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/23_Bear.png"
+			}
+		},
+		{
+			"name": "Bear",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bear",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/24_Bear.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/26_Treasure.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/27_Treasure.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/28_Treasure.png"
+			}
+		},
+		{
+			"name": "Harpy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Harpy",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/11_Harpy.png"
+			}
+		},
+		{
+			"name": "Harpy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Harpy",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/12_Harpy.png"
+			}
+		},
+		{
+			"name": "Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Drone",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/14_Drone.png"
+			}
+		},
+		{
+			"name": "Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Drone",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/15_Drone.png"
+			}
+		},
+		{
+			"name": "Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Drone",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/16_Drone.png"
+			}
+		},
+		{
+			"name": "Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Drone",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/17_Drone.png"
+			}
+		},
+		{
+			"name": "Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Drone",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/18_Drone.png"
+			}
+		},
+		{
+			"name": "Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Drone",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/19_Drone.png"
+			}
+		},
+		{
+			"name": "Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Drone",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/20_Drone.png"
+			}
+		},
+		{
+			"name": "Impera Brigade",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/7_Impera Brigade.png"
+			}
+		},
+		{
+			"name": "Novigradian Justice",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/11_Novigradian Justice.png"
+			}
+		},
+		{
+			"name": "Restore",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/47_Restore.png"
+			}
+		},
+		{
+			"name": "Sabrina's Inferno",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/62_Sabrina's Inferno.png"
+			}
+		},
+		{
+			"name": "Winch",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Construct",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/34_Winch.png"
+			}
+		},
+		{
+			"name": "Arachas Behemoth",
+			"rarity": "common",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Creature — Insectoid",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/69_Arachas Behemoth.png"
+			}
+		},
+		{
+			"name": "Braenn",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Dryad",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/71_Braenn.png"
+			}
+		},
+		{
+			"name": "Nekker",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Ogroid",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/58_Nekker.png"
+			}
+		},
+		{
+			"name": "Gascon",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/53_Gascon.png"
+			}
+		},
+		{
+			"name": "Vernon Roche",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/32_Vernon Roche.png"
+			}
+		},
+		{
+			"name": "Wyvern",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Beast",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/35_Wyvern.png"
+			}
+		},
+		{
+			"name": "Magpie",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/10_Magpie.png"
+			}
+		},
+		{
+			"name": "Field Marshal Windbag",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/29_Field Marshal Windbag.png"
+			}
+		},
+		{
+			"name": "Ruehin",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Demon",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/90_Ruehin.png"
+			}
+		},
+		{
+			"name": "Unseen Elder",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Vampire",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/49_Unseen Elder.png"
+			}
+		},
+		{
+			"name": "Orianna",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Vampire",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/59_Orianna.png"
+			}
+		},
+		{
+			"name": "Yennefer of Vengerberg",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/95_Yennefer of Vengerberg.png"
+			}
+		},
+		{
+			"name": "Aglaïs",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Dryad",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/68_Aglaïs.png"
+			}
+		},
+		{
+			"name": "Rotfiend",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Necrophage",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/61_Rotfiend.png"
+			}
+		},
+		{
+			"name": "Drummond Shieldmaiden",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/27_Drummond Shieldmaiden.png"
+			}
+		},
+		{
+			"name": "Armored Arachas",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Insectoid",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/84_Armored Arachas.png"
+			}
+		},
+		{
+			"name": "Battering Ram",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/97_Battering Ram.png"
+			}
+		},
+		{
+			"name": "Dire Bear",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Bear Mutant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/73_Dire Bear.png"
+			}
+		},
+		{
+			"name": "Griffin",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Griffin",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/5_Griffin.png"
+			}
+		},
+		{
+			"name": "Dwarven Chariot",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/75_Dwarven Chariot.png"
+			}
+		},
+		{
+			"name": "Caretaker",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Relict",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/36_Caretaker.png"
+			}
+		},
+		{
+			"name": "Villentretenmerth",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/66_Villentretenmerth.png"
+			}
+		},
+		{
+			"name": "Old Speartip",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Ogre",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/80_Old Speartip.png"
+			}
+		},
+		{
+			"name": "Kayran",
+			"rarity": "common",
+			"mana_cost": "{7}",
+			"type": "Creature — Insectoid",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/1_Kayran.png"
+			}
+		},
+		{
+			"name": "Delirium",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/25_Delirium.png"
+			}
+		},
+		{
+			"name": "Dimeritium Shackles",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/3_Dimeritium Shackles.png"
+			}
+		},
+		{
+			"name": "Gutting Slash",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/54_Gutting Slash.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/29_Treasure.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Syphren.github.io/sets/GWT-files/img/30_Treasure.png"
+			}
+		},
+	]
+
+[rare(1)]
+[uncommon(4)]
+[common(7)]
+	8 Sheldon Skaggs
+	8 Marching Orders
+	8 Commander's Horn
+	8 Morvudd
+	8 Decoy
+	8 Ale of the Ancestors
+	8 Reinforced Ballista
+	8 Freya's Blessing
+	8 Letho of Gulet
+	8 Rock Barrage
+	8 Necromancy
+	8 Temerian Drummer
+	8 Sigismund Dijkstra
+	8 Harald the Cripple
+	8 Dimeritium Bomb
+	8 Geralt of Rivia
+	8 Schirrú
+	8 Bekker's Dark Mirror
+	8 Dudu
+	8 Arachas Nest
+	8 Trained Hawk
+	8 War Chariot
+	8 Dun Banner
+	8 Vesemir
+	8 Triss Merigold
+	8 Olgierd von Everec
+	8 Dol Blathanna Archer
+	8 Scorch
+	8 Tuirseach Bearmaster
+	8 Impenetrable Fog
+	8 Harpy Nest
+	8 Champion's Charge
+	8 Parasite
+	8 Reinforcements
+	8 Arachas Venom
+	8 Korathi Heatwave
+	8 Mardroeme
+	8 Hideous Feast
+	8 Epidemic
+	8 Myrgtabrakke
+	8 Scepter of Storms
+	8 Mahakam Horn
+	8 Manticore Venom
+	8 Bribery
+	8 Carroballista
+	8 Plumard
+	8 Ghoul
+	8 Ozzrel
+	8 Experimental Remedy
+	8 Artefact Compression
+	8 Waylay
+	8 Adrenaline Rush
+	8 Woodland Spirit
+	8 Eredin Bréacc Glas
+	8 Ciri
+	8 Biting Frost
+	8 Dandelion
+	8 Whale Harpooner
+	8 Toad Prince
+	8 Rot Tosser
+	8 King Henselt
+	8 Francesca Findabair
+	8 Roach
+	8 White Frost
+	8 Undying Thirst
+	8 Hym
+	8 Abaya
+	8 Iorveth's Gambit
+	8 Impera Brigade
+	8 Novigradian Justice
+	8 Restore
+	8 Sabrina's Inferno
+	8 Winch
+	8 Arachas Behemoth
+	8 Braenn
+	8 Nekker
+	8 Gascon
+	8 Vernon Roche
+	8 Wyvern
+	8 Magpie
+	8 Field Marshal Windbag
+	8 Ruehin
+	8 Unseen Elder
+	8 Orianna
+	8 Yennefer of Vengerberg
+	8 Aglaïs
+	8 Rotfiend
+	8 Drummond Shieldmaiden
+	8 Armored Arachas
+	8 Battering Ram
+	8 Dire Bear
+	8 Griffin
+	8 Dwarven Chariot
+	8 Caretaker
+	8 Villentretenmerth
+	8 Old Speartip
+	8 Kayran
+	8 Delirium
+	8 Dimeritium Shackles
+	8 Gutting Slash
+[wildcard(2)]
+	6 Sheldon Skaggs
+	6 Marching Orders
+	6 Commander's Horn
+	6 Morvudd
+	6 Decoy
+	6 Ale of the Ancestors
+	6 Reinforced Ballista
+	6 Freya's Blessing
+	6 Letho of Gulet
+	6 Rock Barrage
+	6 Necromancy
+	6 Temerian Drummer
+	6 Sigismund Dijkstra
+	6 Harald the Cripple
+	6 Dimeritium Bomb
+	6 Geralt of Rivia
+	6 Schirrú
+	6 Bekker's Dark Mirror
+	6 Dudu
+	6 Arachas Nest
+	6 Trained Hawk
+	6 War Chariot
+	6 Dun Banner
+	6 Vesemir
+	6 Triss Merigold
+	6 Olgierd von Everec
+	6 Dol Blathanna Archer
+	6 Scorch
+	6 Tuirseach Bearmaster
+	6 Impenetrable Fog
+	6 Harpy Nest
+	6 Champion's Charge
+	6 Parasite
+	6 Reinforcements
+	6 Arachas Venom
+	6 Korathi Heatwave
+	6 Mardroeme
+	6 Hideous Feast
+	6 Epidemic
+	6 Myrgtabrakke
+	6 Scepter of Storms
+	6 Mahakam Horn
+	6 Manticore Venom
+	6 Bribery
+	6 Carroballista
+	6 Plumard
+	6 Ghoul
+	6 Ozzrel
+	6 Experimental Remedy
+	6 Artefact Compression
+	6 Waylay
+	6 Adrenaline Rush
+	6 Woodland Spirit
+	6 Eredin Bréacc Glas
+	6 Ciri
+	6 Biting Frost
+	6 Dandelion
+	6 Whale Harpooner
+	6 Toad Prince
+	6 Rot Tosser
+	6 King Henselt
+	6 Francesca Findabair
+	6 Roach
+	6 White Frost
+	6 Undying Thirst
+	6 Hym
+	6 Abaya
+	6 Iorveth's Gambit
+	6 Impera Brigade
+	6 Novigradian Justice
+	6 Restore
+	6 Sabrina's Inferno
+	6 Winch
+	6 Arachas Behemoth
+	6 Braenn
+	6 Nekker
+	6 Gascon
+	6 Vernon Roche
+	6 Wyvern
+	6 Magpie
+	6 Field Marshal Windbag
+	6 Ruehin
+	6 Unseen Elder
+	6 Orianna
+	6 Yennefer of Vengerberg
+	6 Aglaïs
+	6 Rotfiend
+	6 Drummond Shieldmaiden
+	6 Armored Arachas
+	6 Battering Ram
+	6 Dire Bear
+	6 Griffin
+	6 Dwarven Chariot
+	6 Caretaker
+	6 Villentretenmerth
+	6 Old Speartip
+	6 Kayran
+	6 Delirium
+	6 Dimeritium Shackles
+	6 Gutting Slash
