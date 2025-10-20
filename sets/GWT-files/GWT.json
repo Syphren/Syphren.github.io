@@ -1,9 +1,9 @@
 ﻿{
-    "name": "Gwent Cube Digital",
+    "name": "Gwent Cube",
     "formats": "",
     "trimmed": "y",
     "image_type": "png",
-    "draft_structure": "play booster",
+    "draft_structure": "none",
     "cards": [
         {
             "card_name": "Morvudd",
