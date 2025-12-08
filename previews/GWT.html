@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/GWT-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>GWT visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/GWT-files/logo.png" />
+	<img class="preload-hidden" src="/sets/GWT-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="GWT"><img src="/sets/GWT-files/icon.png">Gwent Cube github</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/GWT-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\2_Aard.png" id="2_Aard" data-flag="@X" onclick="openSidebar('2_Aard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\38_Alchemist.png" id="38_Alchemist" data-flag="@X" onclick="openSidebar('38_Alchemist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\72_Assassination.png" id="72_Assassination" data-flag="@X" onclick="openSidebar('72_Assassination',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\102_Adrenaline Rush.png" id="102_Adrenaline Rush" data-flag="@X" onclick="openSidebar('102_Adrenaline Rush',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\135_Aglaïs.png" id="135_Aglaïs" data-flag="@X" onclick="openSidebar('135_Aglaïs',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\3_Armor Up.png" id="3_Armor Up" data-flag="@X" onclick="openSidebar('3_Armor Up',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\39_Aretuza Adept.png" id="39_Aretuza Adept" data-flag="@X" onclick="openSidebar('39_Aretuza Adept',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\73_Cadaverine.png" id="73_Cadaverine" data-flag="@X" onclick="openSidebar('73_Cadaverine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\103_Alzur's Thunder.png" id="103_Alzurs Thunder" data-flag="@X" onclick="openSidebar('103_Alzurs Thunder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\136_Arachas Venom.png" id="136_Arachas Venom" data-flag="@X" onclick="openSidebar('136_Arachas Venom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\4_Bekker's Dark Mirror.png" id="4_Bekkers Dark Mirror" data-flag="@X" onclick="openSidebar('4_Bekkers Dark Mirror',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\40_Artefact Compression.png" id="40_Artefact Compression" data-flag="@X" onclick="openSidebar('40_Artefact Compression',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\74_Caretaker.png" id="74_Caretaker" data-flag="@X" onclick="openSidebar('74_Caretaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\104_Arachas Nest.png" id="104_Arachas Nest" data-flag="@X" onclick="openSidebar('104_Arachas Nest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\137_Backup Plan.png" id="137_Backup Plan" data-flag="@X" onclick="openSidebar('137_Backup Plan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\5_Blue Stripes Commando.png" id="5_Blue Stripes Commando" data-flag="@X" onclick="openSidebar('5_Blue Stripes Commando',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\41_Axii.png" id="41_Axii" data-flag="@X" onclick="openSidebar('41_Axii',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\75_Crow Clan Druid.png" id="75_Crow Clan Druid" data-flag="@X" onclick="openSidebar('75_Crow Clan Druid',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\105_Bloody Flail.png" id="105_Bloody Flail" data-flag="@X" onclick="openSidebar('105_Bloody Flail',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\138_Blue Mountain Elite.png" id="138_Blue Mountain Elite" data-flag="@X" onclick="openSidebar('138_Blue Mountain Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\6_Cahir Dyffryn.png" id="6_Cahir Dyffryn" data-flag="@X" onclick="openSidebar('6_Cahir Dyffryn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\42_Biting Frost.png" id="42_Biting Frost" data-flag="@X" onclick="openSidebar('42_Biting Frost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\76_Emissary.png" id="76_Emissary" data-flag="@X" onclick="openSidebar('76_Emissary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\106_Carroballista.png" id="106_Carroballista" data-flag="@X" onclick="openSidebar('106_Carroballista',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\139_Champion's Charge.png" id="139_Champions Charge" data-flag="@X" onclick="openSidebar('139_Champions Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\7_Ciri.png" id="7_Ciri" data-flag="@X" onclick="openSidebar('7_Ciri',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\43_Bribery.png" id="43_Bribery" data-flag="@X" onclick="openSidebar('43_Bribery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\77_Epidemic.png" id="77_Epidemic" data-flag="@X" onclick="openSidebar('77_Epidemic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\107_Crach an Craite.png" id="107_Crach an Craite" data-flag="@X" onclick="openSidebar('107_Crach an Craite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\140_Dire Bear.png" id="140_Dire Bear" data-flag="@X" onclick="openSidebar('140_Dire Bear',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\8_Combat Engineer.png" id="8_Combat Engineer" data-flag="@X" onclick="openSidebar('8_Combat Engineer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\44_Coral.png" id="44_Coral" data-flag="@X" onclick="openSidebar('44_Coral',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\78_Experimental Remedy.png" id="78_Experimental Remedy" data-flag="@X" onclick="openSidebar('78_Experimental Remedy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\108_An Craite Greatsword.png" id="108_An Craite Greatsword" data-flag="@X" onclick="openSidebar('108_An Craite Greatsword',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\141_Dol Blathanna Archer.png" id="141_Dol Blathanna Archer" data-flag="@X" onclick="openSidebar('141_Dol Blathanna Archer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\9_Commander's Horn.png" id="9_Commanders Horn" data-flag="@X" onclick="openSidebar('9_Commanders Horn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\45_Damned Sorceress.png" id="45_Damned Sorceress" data-flag="@X" onclick="openSidebar('45_Damned Sorceress',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\79_Ghoul.png" id="79_Ghoul" data-flag="@X" onclick="openSidebar('79_Ghoul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\109_An Craite Warcrier.png" id="109_An Craite Warcrier" data-flag="@X" onclick="openSidebar('109_An Craite Warcrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\142_Dwarven Chariot.png" id="142_Dwarven Chariot" data-flag="@X" onclick="openSidebar('142_Dwarven Chariot',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\10_Dimeritium Shackles.png" id="10_Dimeritium Shackles" data-flag="@X" onclick="openSidebar('10_Dimeritium Shackles',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\46_Decoy.png" id="46_Decoy" data-flag="@X" onclick="openSidebar('46_Decoy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\80_Grave Hag.png" id="80_Grave Hag" data-flag="@X" onclick="openSidebar('80_Grave Hag',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\110_Curse of Corruption.png" id="110_Curse of Corruption" data-flag="@X" onclick="openSidebar('110_Curse of Corruption',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\143_Eskel.png" id="143_Eskel" data-flag="@X" onclick="openSidebar('143_Eskel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\11_Drummond Queensguard.png" id="11_Drummond Queensguard" data-flag="@X" onclick="openSidebar('11_Drummond Queensguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\47_Delirium.png" id="47_Delirium" data-flag="@X" onclick="openSidebar('47_Delirium',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\81_Hym.png" id="81_Hym" data-flag="@X" onclick="openSidebar('81_Hym',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\111_Dettlaff.png" id="111_Dettlaff" data-flag="@X" onclick="openSidebar('111_Dettlaff',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\144_Fiend.png" id="144_Fiend" data-flag="@X" onclick="openSidebar('144_Fiend',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\12_Dun Banner.png" id="12_Dun Banner" data-flag="@X" onclick="openSidebar('12_Dun Banner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\48_Devil's Puffball.png" id="48_Devils Puffball" data-flag="@X" onclick="openSidebar('48_Devils Puffball',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\82_Imperial Manticore.png" id="82_Imperial Manticore" data-flag="@X" onclick="openSidebar('82_Imperial Manticore',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\112_Dimun Pirate.png" id="112_Dimun Pirate" data-flag="@X" onclick="openSidebar('112_Dimun Pirate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\145_Foglet.png" id="145_Foglet" data-flag="@X" onclick="openSidebar('145_Foglet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\13_Excommunication.png" id="13_Excommunication" data-flag="@X" onclick="openSidebar('13_Excommunication',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\49_Dimeritium Bomb.png" id="49_Dimeritium Bomb" data-flag="@X" onclick="openSidebar('49_Dimeritium Bomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\83_King of Beggars.png" id="83_King of Beggars" data-flag="@X" onclick="openSidebar('83_King of Beggars',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\113_Endrega Eggs.png" id="113_Endrega Eggs" data-flag="@X" onclick="openSidebar('113_Endrega Eggs',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\146_Freya's Blessing.png" id="146_Freyas Blessing" data-flag="@X" onclick="openSidebar('146_Freyas Blessing',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\14_Forktail.png" id="14_Forktail" data-flag="@X" onclick="openSidebar('14_Forktail',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\50_Dimun Smuggler.png" id="50_Dimun Smuggler" data-flag="@X" onclick="openSidebar('50_Dimun Smuggler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\84_Letho of Gulet.png" id="84_Letho of Gulet" data-flag="@X" onclick="openSidebar('84_Letho of Gulet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\114_Gascon.png" id="114_Gascon" data-flag="@X" onclick="openSidebar('114_Gascon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\147_Glorious Hunt.png" id="147_Glorious Hunt" data-flag="@X" onclick="openSidebar('147_Glorious Hunt',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\15_Griffin.png" id="15_Griffin" data-flag="@X" onclick="openSidebar('15_Griffin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\51_Dimun Warship.png" id="51_Dimun Warship" data-flag="@X" onclick="openSidebar('51_Dimun Warship',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\85_Manticore Venom.png" id="85_Manticore Venom" data-flag="@X" onclick="openSidebar('85_Manticore Venom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\115_Gutting Slash.png" id="115_Gutting Slash" data-flag="@X" onclick="openSidebar('115_Gutting Slash',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\148_Impenetrable Fog.png" id="148_Impenetrable Fog" data-flag="@X" onclick="openSidebar('148_Impenetrable Fog',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\16_Impera Brigade.png" id="16_Impera Brigade" data-flag="@X" onclick="openSidebar('16_Impera Brigade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\52_Djinn.png" id="52_Djinn" data-flag="@X" onclick="openSidebar('52_Djinn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\86_Morkvarg.png" id="86_Morkvarg" data-flag="@X" onclick="openSidebar('86_Morkvarg',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\116_Igni.png" id="116_Igni" data-flag="@X" onclick="openSidebar('116_Igni',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\149_Iorveth.png" id="149_Iorveth" data-flag="@X" onclick="openSidebar('149_Iorveth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\17_Kambi.png" id="17_Kambi" data-flag="@X" onclick="openSidebar('17_Kambi',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\53_Dudu.png" id="53_Dudu" data-flag="@X" onclick="openSidebar('53_Dudu',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\87_The Naglfar.png" id="87_The Naglfar" data-flag="@X" onclick="openSidebar('87_The Naglfar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\117_Korathi Heatwave.png" id="117_Korathi Heatwave" data-flag="@X" onclick="openSidebar('117_Korathi Heatwave',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\150_Ithlinne Aegli.png" id="150_Ithlinne Aegli" data-flag="@X" onclick="openSidebar('150_Ithlinne Aegli',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\18_Knighthood.png" id="18_Knighthood" data-flag="@X" onclick="openSidebar('18_Knighthood',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\54_Garrison.png" id="54_Garrison" data-flag="@X" onclick="openSidebar('54_Garrison',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\88_Nilfgaardian Knight.png" id="88_Nilfgaardian Knight" data-flag="@X" onclick="openSidebar('88_Nilfgaardian Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\118_Lacerate.png" id="118_Lacerate" data-flag="@X" onclick="openSidebar('118_Lacerate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\151_Johnny.png" id="151_Johnny" data-flag="@X" onclick="openSidebar('151_Johnny',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\19_Magne Division.png" id="19_Magne Division" data-flag="@X" onclick="openSidebar('19_Magne Division',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\55_Harpy Nest.png" id="55_Harpy Nest" data-flag="@X" onclick="openSidebar('55_Harpy Nest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\89_Noonwraith.png" id="89_Noonwraith" data-flag="@X" onclick="openSidebar('89_Noonwraith',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\119_Lambert.png" id="119_Lambert" data-flag="@X" onclick="openSidebar('119_Lambert',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\152_Mahakam Defender.png" id="152_Mahakam Defender" data-flag="@X" onclick="openSidebar('152_Mahakam Defender',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\20_Magpie.png" id="20_Magpie" data-flag="@X" onclick="openSidebar('20_Magpie',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\56_Keira Metz.png" id="56_Keira Metz" data-flag="@X" onclick="openSidebar('56_Keira Metz',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\90_Pact.png" id="90_Pact" data-flag="@X" onclick="openSidebar('90_Pact',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\120_Mad Charge.png" id="120_Mad Charge" data-flag="@X" onclick="openSidebar('120_Mad Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\153_Morenn.png" id="153_Morenn" data-flag="@X" onclick="openSidebar('153_Morenn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\21_Mastercrafted Spear.png" id="21_Mastercrafted Spear" data-flag="@X" onclick="openSidebar('21_Mastercrafted Spear',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\57_Lamia.png" id="57_Lamia" data-flag="@X" onclick="openSidebar('57_Lamia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\91_Parasite.png" id="91_Parasite" data-flag="@X" onclick="openSidebar('91_Parasite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\121_Nekker.png" id="121_Nekker" data-flag="@X" onclick="openSidebar('121_Nekker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\154_Morvudd.png" id="154_Morvudd" data-flag="@X" onclick="openSidebar('154_Morvudd',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\22_Moon Dust.png" id="22_Moon Dust" data-flag="@X" onclick="openSidebar('22_Moon Dust',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\58_Myrgtabrakke.png" id="58_Myrgtabrakke" data-flag="@X" onclick="openSidebar('58_Myrgtabrakke',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\92_Plumard.png" id="92_Plumard" data-flag="@X" onclick="openSidebar('92_Plumard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\122_Operator.png" id="122_Operator" data-flag="@X" onclick="openSidebar('122_Operator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\155_Old Speartip.png" id="155_Old Speartip" data-flag="@X" onclick="openSidebar('155_Old Speartip',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\23_Novigradian Justice.png" id="23_Novigradian Justice" data-flag="@X" onclick="openSidebar('23_Novigradian Justice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\59_Offering to the Sea.png" id="59_Offering to the Sea" data-flag="@X" onclick="openSidebar('59_Offering to the Sea',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\93_Regis.png" id="93_Regis" data-flag="@X" onclick="openSidebar('93_Regis',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\123_Phoenix.png" id="123_Phoenix" data-flag="@X" onclick="openSidebar('123_Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\156_Quen.png" id="156_Quen" data-flag="@X" onclick="openSidebar('156_Quen',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\24_Ointment.png" id="24_Ointment" data-flag="@X" onclick="openSidebar('24_Ointment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\61_Princess Pavetta.png" id="61_Princess Pavetta" data-flag="@X" onclick="openSidebar('61_Princess Pavetta',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\94_Restore.png" id="94_Restore" data-flag="@X" onclick="openSidebar('94_Restore',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\124_Pulling the Strings.png" id="124_Pulling the Strings" data-flag="@X" onclick="openSidebar('124_Pulling the Strings',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\157_Scoia'tael Neophyte.png" id="157_Scoiatael Neophyte" data-flag="@X" onclick="openSidebar('157_Scoiatael Neophyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\25_Piercing Missile.png" id="25_Piercing Missile" data-flag="@X" onclick="openSidebar('25_Piercing Missile',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\62_Priscilla.png" id="62_Priscilla" data-flag="@X" onclick="openSidebar('62_Priscilla',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\95_Rot Tosser.png" id="95_Rot Tosser" data-flag="@X" onclick="openSidebar('95_Rot Tosser',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\125_Red Haze.png" id="125_Red Haze" data-flag="@X" onclick="openSidebar('125_Red Haze',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\158_Shupe.png" id="158_Shupe" data-flag="@X" onclick="openSidebar('158_Shupe',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\26_Prize-Winning Cow.png" id="26_Prize-Winning Cow" data-flag="@X" onclick="openSidebar('26_Prize-Winning Cow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\63_Royal Decree.png" id="63_Royal Decree" data-flag="@X" onclick="openSidebar('63_Royal Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\96_Torrential Rain.png" id="96_Torrential Rain" data-flag="@X" onclick="openSidebar('96_Torrential Rain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\126_Red Riders.png" id="126_Red Riders" data-flag="@X" onclick="openSidebar('126_Red Riders',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\159_Spores.png" id="159_Spores" data-flag="@X" onclick="openSidebar('159_Spores',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\27_Reinforced Ballista.png" id="27_Reinforced Ballista" data-flag="@X" onclick="openSidebar('27_Reinforced Ballista',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\64_Sigismund Dijkstra.png" id="64_Sigismund Dijkstra" data-flag="@X" onclick="openSidebar('64_Sigismund Dijkstra',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\97_Treason.png" id="97_Treason" data-flag="@X" onclick="openSidebar('97_Treason',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\127_Rotfiend.png" id="127_Rotfiend" data-flag="@X" onclick="openSidebar('127_Rotfiend',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\160_Spring Equinox.png" id="160_Spring Equinox" data-flag="@X" onclick="openSidebar('160_Spring Equinox',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\28_Reinforcements.png" id="28_Reinforcements" data-flag="@X" onclick="openSidebar('28_Reinforcements',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\65_Slyzard.png" id="65_Slyzard" data-flag="@X" onclick="openSidebar('65_Slyzard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\98_Unseen Elder.png" id="98_Unseen Elder" data-flag="@X" onclick="openSidebar('98_Unseen Elder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\128_Stammelford's Tremors.png" id="128_Stammelfords Tremors" data-flag="@X" onclick="openSidebar('128_Stammelfords Tremors',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\161_Toad Prince.png" id="161_Toad Prince" data-flag="@X" onclick="openSidebar('161_Toad Prince',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\29_Renew.png" id="29_Renew" data-flag="@X" onclick="openSidebar('29_Renew',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\66_Teleportation.png" id="66_Teleportation" data-flag="@X" onclick="openSidebar('66_Teleportation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\99_Weavess.png" id="99_Weavess" data-flag="@X" onclick="openSidebar('99_Weavess',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\129_Trebuchet.png" id="129_Trebuchet" data-flag="@X" onclick="openSidebar('129_Trebuchet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\162_Trial of the Grasses.png" id="162_Trial of the Grasses" data-flag="@X" onclick="openSidebar('162_Trial of the Grasses',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\30_Roach.png" id="30_Roach" data-flag="@X" onclick="openSidebar('30_Roach',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\67_Vernon Roche.png" id="67_Vernon Roche" data-flag="@X" onclick="openSidebar('67_Vernon Roche',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\100_White Frost.png" id="100_White Frost" data-flag="@X" onclick="openSidebar('100_White Frost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\130_Tunnel Drill.png" id="130_Tunnel Drill" data-flag="@X" onclick="openSidebar('130_Tunnel Drill',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\163_Tuirseach Bearmaster.png" id="163_Tuirseach Bearmaster" data-flag="@X" onclick="openSidebar('163_Tuirseach Bearmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\31_Shani.png" id="31_Shani" data-flag="@X" onclick="openSidebar('31_Shani',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\68_Water Hag.png" id="68_Water Hag" data-flag="@X" onclick="openSidebar('68_Water Hag',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\101_Yrden.png" id="101_Yrden" data-flag="@X" onclick="openSidebar('101_Yrden',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\131_Undying Thirst.png" id="131_Undying Thirst" data-flag="@X" onclick="openSidebar('131_Undying Thirst',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\164_Waylay.png" id="164_Waylay" data-flag="@X" onclick="openSidebar('164_Waylay',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\32_Temerian Drummer.png" id="32_Temerian Drummer" data-flag="@X" onclick="openSidebar('32_Temerian Drummer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\69_Whale Harpooner.png" id="69_Whale Harpooner" data-flag="@X" onclick="openSidebar('69_Whale Harpooner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\132_Villentretenmerth.png" id="132_Villentretenmerth" data-flag="@X" onclick="openSidebar('132_Villentretenmerth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\33_Tourney Joust.png" id="33_Tourney Joust" data-flag="@X" onclick="openSidebar('33_Tourney Joust',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\70_Wild Boar of the Sea.png" id="70_Wild Boar of the Sea" data-flag="@X" onclick="openSidebar('70_Wild Boar of the Sea',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\133_War Chariot.png" id="133_War Chariot" data-flag="@X" onclick="openSidebar('133_War Chariot',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\34_Trained Hawk.png" id="34_Trained Hawk" data-flag="@X" onclick="openSidebar('34_Trained Hawk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\71_Winch.png" id="71_Winch" data-flag="@X" onclick="openSidebar('71_Winch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\134_Zoltan Chivay.png" id="134_Zoltan Chivay" data-flag="@X" onclick="openSidebar('134_Zoltan Chivay',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\35_Vesemir.png" id="35_Vesemir" data-flag="@X" onclick="openSidebar('35_Vesemir',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\36_Vigo's Muzzle.png" id="36_Vigos Muzzle" data-flag="@X" onclick="openSidebar('36_Vigos Muzzle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\37_Witch Hunter.png" id="37_Witch Hunter" data-flag="@X" onclick="openSidebar('37_Witch Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\178_King Foltest.png" id="178_King Foltest" data-flag="@X" onclick="openSidebar('178_King Foltest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\169_Cynthia.png" id="169_Cynthia" data-flag="@X" onclick="openSidebar('169_Cynthia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\167_Armored Arachas.png" id="167_Armored Arachas" data-flag="@X" onclick="openSidebar('167_Armored Arachas',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\166_Arachas Behemoth.png" id="166_Arachas Behemoth" data-flag="@X" onclick="openSidebar('166_Arachas Behemoth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\168_Avallac'h.png" id="168_Avallach" data-flag="@X" onclick="openSidebar('168_Avallach',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\174_Gaunter O'Dimm.png" id="174_Gaunter ODimm" data-flag="@X" onclick="openSidebar('174_Gaunter ODimm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\172_Eredin Bréacc Glas.png" id="172_Eredin Bréacc Glas" data-flag="@X" onclick="openSidebar('172_Eredin Bréacc Glas',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\177_Golyat.png" id="177_Golyat" data-flag="@X" onclick="openSidebar('177_Golyat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\184_Saesenthessis.png" id="184_Saesenthessis" data-flag="@X" onclick="openSidebar('184_Saesenthessis',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\179_Philippa Eilhart.png" id="179_Philippa Eilhart" data-flag="@X" onclick="openSidebar('179_Philippa Eilhart',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\186_Scorch.png" id="186_Scorch" data-flag="@X" onclick="openSidebar('186_Scorch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\190_Woodland Spirit.png" id="190_Woodland Spirit" data-flag="@X" onclick="openSidebar('190_Woodland Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\187_Svalblod Totem.png" id="187_Svalblod Totem" data-flag="@X" onclick="openSidebar('187_Svalblod Totem',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\191_Yennefer of Vengerberg.png" id="191_Yennefer of Vengerberg" data-flag="@X" onclick="openSidebar('191_Yennefer of Vengerberg',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\189_Vilgefortz.png" id="189_Vilgefortz" data-flag="@X" onclick="openSidebar('189_Vilgefortz',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\192_Yennefer's Invocation.png" id="192_Yennefers Invocation" data-flag="@X" onclick="openSidebar('192_Yennefers Invocation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\171_Emhyr var Emreis.png" id="171_Emhyr var Emreis" data-flag="@X" onclick="openSidebar('171_Emhyr var Emreis',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\170_Dandelion.png" id="170_Dandelion" data-flag="@X" onclick="openSidebar('170_Dandelion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\165_Alghoul.png" id="165_Alghoul" data-flag="@X" onclick="openSidebar('165_Alghoul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\181_Queen Meve.png" id="181_Queen Meve" data-flag="@X" onclick="openSidebar('181_Queen Meve',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\173_Francesca Findabair.png" id="173_Francesca Findabair" data-flag="@X" onclick="openSidebar('173_Francesca Findabair',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\176_Geralt of Rivia.png" id="176_Geralt of Rivia" data-flag="@X" onclick="openSidebar('176_Geralt of Rivia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\188_Triss Merigold.png" id="188_Triss Merigold" data-flag="@X" onclick="openSidebar('188_Triss Merigold',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\183_Ruehin.png" id="183_Ruehin" data-flag="@X" onclick="openSidebar('183_Ruehin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\182_Ragh Nar Roog.png" id="182_Ragh Nar Roog" data-flag="@X" onclick="openSidebar('182_Ragh Nar Roog',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\175_Ge'els.png" id="175_Geels" data-flag="@X" onclick="openSidebar('175_Geels',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\185_Schirrú.png" id="185_Schirrú" data-flag="@X" onclick="openSidebar('185_Schirrú',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\180_Prepare an Ambush.png" id="180_Prepare an Ambush" data-flag="@X" onclick="openSidebar('180_Prepare an Ambush',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\1_Kayran.png" id="1_Kayran" data-flag="@X" onclick="openSidebar('1_Kayran',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\193_Ale of the Ancestors.png" id="193_Ale of the Ancestors" data-flag="@X" onclick="openSidebar('193_Ale of the Ancestors',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\194_Battering Ram.png" id="194_Battering Ram" data-flag="@X" onclick="openSidebar('194_Battering Ram',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\195_Colossal Ifrit.png" id="195_Colossal Ifrit" data-flag="@X" onclick="openSidebar('195_Colossal Ifrit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\196_Mahakam Horn.png" id="196_Mahakam Horn" data-flag="@X" onclick="openSidebar('196_Mahakam Horn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\197_Pitfall Trap.png" id="197_Pitfall Trap" data-flag="@X" onclick="openSidebar('197_Pitfall Trap',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\198_Portal.png" id="198_Portal" data-flag="@X" onclick="openSidebar('198_Portal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\199_Scepter of Storms.png" id="199_Scepter of Storms" data-flag="@X" onclick="openSidebar('199_Scepter of Storms',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\200_Summoning Circle.png" id="200_Summoning Circle" data-flag="@X" onclick="openSidebar('200_Summoning Circle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\1t_Copy.png" id="1t_Copy" data-flag="@X" onclick="openSidebar('1t_Copy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\8t_Gwent Cube Rules.png" id="8t_Gwent Cube Rules" data-flag="@X" onclick="openSidebar('8t_Gwent Cube Rules',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\9t_Hemdall.png" id="9t_Hemdall" data-flag="@X" onclick="openSidebar('9t_Hemdall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\10t_Pass the Round.png" id="10t_Pass the Round" data-flag="@X" onclick="openSidebar('10t_Pass the Round',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\11t_Golem.png" id="11t_Golem" data-flag="@X" onclick="openSidebar('11t_Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\12t_Treasure.png" id="12t_Treasure" data-flag="@X" onclick="openSidebar('12t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\2t_Soldier.png" id="2t_Soldier" data-flag="@X" onclick="openSidebar('2t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\3t_Harpy.png" id="3t_Harpy" data-flag="@X" onclick="openSidebar('3t_Harpy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\4t_Bird.png" id="4t_Bird" data-flag="@X" onclick="openSidebar('4t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\5t_Chort.png" id="5t_Chort" data-flag="@X" onclick="openSidebar('5t_Chort',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\6t_Drone.png" id="6t_Drone" data-flag="@X" onclick="openSidebar('6t_Drone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\7t_Bear.png" id="7t_Bear" data-flag="@X" onclick="openSidebar('7t_Bear',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\GWT-files\img\60t_Oneiromancy.png" id="60t_Oneiromancy" data-flag="@X" onclick="openSidebar('60t_Oneiromancy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
