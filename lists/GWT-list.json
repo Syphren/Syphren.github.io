@@ -777,8 +777,8 @@
         "position": ""
     },
     {
-        "card_name": "Princess Pavetta",
-        "number": 61,
+        "card_name": "Oneiromancy",
+        "number": 60,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -812,8 +812,8 @@
         "position": ""
     },
     {
-        "card_name": "Priscilla",
-        "number": 62,
+        "card_name": "Princess Pavetta",
+        "number": 61,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -847,8 +847,8 @@
         "position": ""
     },
     {
-        "card_name": "Royal Decree",
-        "number": 63,
+        "card_name": "Priscilla",
+        "number": 62,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -882,8 +882,8 @@
         "position": ""
     },
     {
-        "card_name": "Sigismund Dijkstra",
-        "number": 64,
+        "card_name": "Royal Decree",
+        "number": 63,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -917,8 +917,8 @@
         "position": ""
     },
     {
-        "card_name": "Slyzard",
-        "number": 65,
+        "card_name": "Sigismund Dijkstra",
+        "number": 64,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -952,8 +952,8 @@
         "position": ""
     },
     {
-        "card_name": "Teleportation",
-        "number": 66,
+        "card_name": "Slyzard",
+        "number": 65,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -987,8 +987,8 @@
         "position": ""
     },
     {
-        "card_name": "Vernon Roche",
-        "number": 67,
+        "card_name": "Teleportation",
+        "number": 66,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -1022,8 +1022,8 @@
         "position": ""
     },
     {
-        "card_name": "Water Hag",
-        "number": 68,
+        "card_name": "Vernon Roche",
+        "number": 67,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -1057,8 +1057,8 @@
         "position": ""
     },
     {
-        "card_name": "Whale Harpooner",
-        "number": 69,
+        "card_name": "Water Hag",
+        "number": 68,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -1084,8 +1084,8 @@
         "position": ""
     },
     {
-        "card_name": "Wild Boar of the Sea",
-        "number": 70,
+        "card_name": "Whale Harpooner",
+        "number": 69,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -1111,8 +1111,8 @@
         "position": ""
     },
     {
-        "card_name": "Winch",
-        "number": 71,
+        "card_name": "Wild Boar of the Sea",
+        "number": 70,
         "shape": "normal",
         "set": "GWT",
         "position": ""
@@ -1138,7 +1138,11 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "Winch",
+        "number": 71,
+        "shape": "normal",
+        "set": "GWT",
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1624,11 +1628,7 @@
         "position": ""
     },
     {
-        "card_name": "Oneiromancy",
-        "number": 60,
-        "shape": "token",
-        "set": "GWT",
-        "position": ""
+        "card_name": "e"
     },
     {
         "card_name": "e"

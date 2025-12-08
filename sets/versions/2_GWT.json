@@ -1,5 +1,5 @@
 ﻿{
-    "name": "Gwent Cube github",
+    "name": "Gwent Cube",
     "formats": "",
     "trimmed": "n",
     "image_type": "png",
@@ -2375,11 +2375,11 @@
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "token",
+            "shape": "normal",
             "set": "GWT",
             "loyalty": "",
             "artist": "Lorenzo Mastroianni",
-            "notes": "!tokens Copy GWT"
+            "notes": ""
         },
         {
             "card_name": "Spring Equinox",

@@ -2501,11 +2501,11 @@
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "token",
+            "shape": "normal",
             "set": "GWT",
             "loyalty": "",
             "artist": "Lorenzo Mastroianni",
-            "notes": "!tokens Copy GWT",
+            "notes": "",
             "image_type": "png"
         },
         {
