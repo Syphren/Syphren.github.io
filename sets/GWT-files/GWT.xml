@@ -1,0 +1,3701 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>GWT</name>
+			<longname>Gwent Cube</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-02-28</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Reinforced Ballista</name>
+			<text>Defender
+Exhaust — {2}{W}: This creature deals 4 damage to target attacking or blocking creature. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/26_Reinforced Ballista.png" num="26">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arachas Nest</name>
+			<text>Drones you control have haste.
+When this enchantment enters, create a 1/1 red Drone creature token with &quot;This creature can&apos;t block.&quot;
+{1}{R}: Create a 1/1 red Drone creature token with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/101_Arachas Nest.png" num="101">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dun Banner</name>
+			<text>Vigilance
+{W}, {T}: Tap target creature. You gain 1 life.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/12_Dun Banner.png" num="12">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dol Blathanna Archer</name>
+			<text>Reach
+Outlast {G} ({G}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+When this creature dies, put its counters on target creature you control.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/139_Dol Blathanna Archer.png" num="139">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tuirseach Bearmaster</name>
+			<text>When this creature enters, create a 2/2 green Bear creature token.
+{1}{G}, {T}: Target Bear you control fights target creature you don&apos;t control. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/162_Tuirseach Bearmaster.png" num="162">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impenetrable Fog</name>
+			<text>Prevent all damage that would be dealt this turn by creatures your opponents control.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/146_Impenetrable Fog.png" num="146">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Myrgtabrakke</name>
+			<text>Flash
+Flying
+When Myrgtabrakke enters, target creature an opponent controls gets -2/-0 until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/54_Myrgtabrakke.png" num="54">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scepter of Storms</name>
+			<text>Equipped creature gets +1/+1 and has vigilance and reach.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/199_Scepter of Storms.png" num="199">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Manticore Venom</name>
+			<text>Target creature gets -3/-3 until end of turn. You gain 3 life.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/82_Manticore Venom.png" num="82">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bribery</name>
+			<text>When this enchantment enters, each opponent creates a Treasure token.
+{U}, Sacrifice this enchantment: Counter target spell.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/40_Bribery.png" num="40">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Carroballista</name>
+			<text>Menace
+Exhaust — {2}{R}: Gain control of target creature an opponent controls until end of turn. Untap it. It gains haste until end of turn. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/103_Carroballista.png" num="103">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Waylay</name>
+			<text>Target creature you control fights target creature you don&apos;t control. (Each deals damage equal to its power to the other.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/163_Waylay.png" num="163">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eredin Bréacc Glas</name>
+			<text>Haste
+Landfall — Whenever a land you control enters, Eredin Bréacc Glas gains indestructible and menace until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/171_Eredin Bréacc Glas.png" num="171">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Whale Harpooner</name>
+			<text>Vigilance
+Exhaust — {3}{U}: Until end of turn, whenever a creature you control deals combat damage to a player, draw a card. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/65_Whale Harpooner.png" num="65">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Toad Prince</name>
+			<text>Reach, deathtouch
+{3}{G}, Sacrifice Toad Prince: Destroy target artifact. Create a Treasure token.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/160_Toad Prince.png" num="160">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Frog Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>White Frost</name>
+			<text>White Frost enters with five time counters on it.
+Players skip their draw steps.
+At the beginning of your upkeep, remove a time counter from White Frost. Then if there are no time counters on it, exile it.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/97_White Frost.png" num="97">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BBB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Soldier GWT</name>
+			<text></text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/2t_Soldier.png" num="2">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bear GWT</name>
+			<text></text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/7t_Bear.png" num="7">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bear</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Harpy GWT</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/3t_Harpy.png" num="3">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Harpy</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Drone GWT</name>
+			<text>This token can&apos;t block.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/6t_Drone.png" num="6">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Novigradian Justice</name>
+			<text>Novigradian Justice deals damage equal to the number of creatures you control to target creature.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/23_Novigradian Justice.png" num="23">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Restore</name>
+			<text>Until end of turn, target creature gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control.&quot;</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/91_Restore.png" num="91">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Magpie</name>
+			<text>Flying
+When this creature enters, each player creates a Treasure token.
+Whenever this creature attacks, you may pay {W}. If you do, each player draws a card.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/20_Magpie.png" num="20">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rotfiend</name>
+			<text>During your turn, this creature has first strike.
+Whenever a player casts a spell, this creature deals 2 damage to that player.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/124_Rotfiend.png" num="124">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Necrophage</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Battering Ram</name>
+			<text>Indestructible
+This creature attacks each combat if able.
+Exhaust — {7}: Put three +1/+1 counters on this creature. It gains trample until end of turn. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/194_Battering Ram.png" num="194">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dwarven Chariot</name>
+			<text>Trample
+Exhaust — {1}{G}: Put two +1/+1 counters on another target creature. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/140_Dwarven Chariot.png" num="140">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Old Speartip</name>
+			<text>Reach, trample
+Other creatures you control have trample.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/153_Old Speartip.png" num="153">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ogroid</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gutting Slash</name>
+			<text>Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/112_Gutting Slash.png" num="112">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Treasure GWT</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/13t_Treasure.png" num="13">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bird GWT</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/4t_Bird.png" num="4">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Summoning Circle</name>
+			<text>Whenever you cast a spell, put a charge counter on this artifact. Then if there are five or more charge counters on it, sacrifice it, create a 4/4 colorless Golem artifact creature token and draw a card.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/200_Summoning Circle.png" num="200">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Svalblod Totem</name>
+			<text>Creatures you control get +1/+1.
+Exhaust — {5}{G}{W}: Create two 2/2 green Bear creature tokens. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/186_Svalblod Totem.png" num="186">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Johnny</name>
+			<text>Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+{1}, {T}: Put a +1/+1 counter on each creature you control that entered this turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/149_Johnny.png" num="149">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Relict</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Devil&apos;s Puffball</name>
+			<text>Flash (You may cast this spell any time you could cast an instant.)
+Enchant creature
+Enchanted creature gets -4/-0.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/45_Devil&apos;s Puffball.png" num="45">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Excommunication</name>
+			<text>Exile target creature.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/13_Excommunication.png" num="13">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Royal Decree</name>
+			<text>Suspend 5—{1}{U} (Pay {1}{U} and exile this card from your hand as a sorcery with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Exchange control of two target creatures.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/59_Royal Decree.png" num="59">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Golem GWT</name>
+			<text></text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/12t_Golem.png" num="12">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Chort GWT</name>
+			<text>Menace</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/5t_Chort.png" num="5">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Relict</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Cadaverine</name>
+			<text>Destroy target creature unless its controller pays half their life, rounded up.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/69_Cadaverine.png" num="69">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dimeritium Shackles</name>
+			<text>Enchant creature
+Enchanted creature can&apos;t attack or block.
+{7}: Destroy Dimeritium Shackles. Any player may activate this ability.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/10_Dimeritium Shackles.png" num="10">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Golyat</name>
+			<text>{1}: Flip a coin. If you win the flip, Golyat gains double strike until end of turn. If you lose the flip, Golyat deals 4 damage to you. Activate only during your turn and only once each turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/176_Golyat.png" num="176">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ogroid</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hym</name>
+			<text>Menace
+{B}: This creature gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/78_Hym.png" num="78">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impera Brigade</name>
+			<text>Create two 1/1 white Soldier creature tokens. They gain indestructible until your next turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/16_Impera Brigade.png" num="16">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Knighthood</name>
+			<text>Flash
+Enchant creature
+When this Aura enters, enchanted creature gains first strike until end of turn.
+Enchanted creature gets +2/+2.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/18_Knighthood.png" num="18">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lacerate</name>
+			<text>Lacerate deals 2 damage to any target.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/115_Lacerate.png" num="115">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Letho of Gulet</name>
+			<text>Deathtouch, lifelink
+At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its mana value.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/81_Letho of Gulet.png" num="81">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Witcher</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alghoul</name>
+			<text>At the beginning of combat on your turn, you may exile two cards from your graveyard. When you do, target creature gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/164_Alghoul.png" num="164">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Necrophage</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Parasite</name>
+			<text>Enchant creature
+Enchanted creature gets -2/-2.
+At the beginning of the upkeep of enchanted creature&apos;s controller, that player loses 2 life unless they discard a card.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/88_Parasite.png" num="88">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Piercing Missile</name>
+			<text>Destroy target tapped creature.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/24_Piercing Missile.png" num="24">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ruehin</name>
+			<text>Your opponents can&apos;t gain life.
+When Ruehin enters, each player sacrifices a nonland, nontoken permanent of their choice.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/183_Ruehin.png" num="183">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trained Hawk</name>
+			<text>Flying
+{2}{W}, Sacrifice this creature: Secretly choose a nonland permanent target opponent controls, then that player guesses which permanent it is. If they guess wrong, destroy the chosen permanent.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/33_Trained Hawk.png" num="33">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Undying Thirst</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+0 and has menace and &quot;Whenever this creature attacks, create a Treasure token.&quot;</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/128_Undying Thirst.png" num="128">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vernon Roche</name>
+			<text>{4}{U}{U}, Sacrifice Vernon Roche: Choose an opponent. If that player has more cards in hand than you, draw cards equal to the difference. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/63_Vernon Roche.png" num="63">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>War Chariot</name>
+			<text>Menace, haste
+Exhaust — {T}: Another target creature gains menace and haste until end of turn. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/130_War Chariot.png" num="130">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Torrential Rain</name>
+			<text>Creatures your opponents control get -1/-1 until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/93_Torrential Rain.png" num="93">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gwent Cube Rules GWT</name>
+			<text>Each player starts at 30 life and with a copy of ‘Pass the Round&apos; in play. Players may not take a mulligan.
+Any card may be played face down as a land with &quot;{T}: Add one mana of any color.&quot;</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/8t_Gwent Cube Rules.png" num="8">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+			<related>Pass the Round GWT</related>
+		</card>
+		<card>
+			<name>Emhyr var Emreis</name>
+			<text>Creatures your opponents control enter tapped.
+At the beginning of your end step, if a creature died this turn, create a Treasure token.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/170_Emhyr var Emreis.png" num="170">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kambi</name>
+			<text>Flying
+Whenever you activate an ability of an emblem named Pass the Round, draw a card.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/17_Kambi.png" num="17">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Quen</name>
+			<text>Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/155_Quen.png" num="155">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aard</name>
+			<text>Exile target creature, then return it to the battlefield tapped under its owner&apos;s control.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/2_Aard.png" num="2">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prize-Winning Cow</name>
+			<text>Lifelink
+Whenever this creature dies during your turn, you may pay {1}{B}. If you do, create a 4/3 black Chort creature token with menace.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/25_Prize-Winning Cow.png" num="25">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ox</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Imperial Manticore</name>
+			<text>Flying, deathtouch
+Whenever this creature deals combat damage to a player, they lose 1 life for each creature they control.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/79_Imperial Manticore.png" num="79">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Manticore</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dimun Warship</name>
+			<text>This creature can&apos;t be blocked.
+Exhaust — {2}{U}: Return target creature an opponent controls to its owner&apos;s hand. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/47_Dimun Warship.png" num="47">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Igni</name>
+			<text>Suspend 2—{2}{R} (Pay {2}{R} and exile this card from your hand as a sorcery with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Igni deals 3 damage to each creature.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/113_Igni.png" num="113">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Zoltan Chivay</name>
+			<text>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+Whenever you attack with two or more creatures, target creature blocks this turn if able.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/131_Zoltan Chivay.png" num="131">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Decoy</name>
+			<text>Return target nonland permanent you control to its owner&apos;s hand.
+Draw a card.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/43_Decoy.png" num="43">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Endrega Eggs</name>
+			<text>Defender
+When this creature enters, each player creates three 1/1 red Drone creature tokens with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/110_Endrega Eggs.png" num="110">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insectoid Egg</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Griffin</name>
+			<text>Flying
+When this creature enters, return a creature you control to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/15_Griffin.png" num="15">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Griffin</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pitfall Trap</name>
+			<text>{1}, {T}, Sacrifice this artifact: Destroy target creature that dealt combat damage to you this turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/197_Pitfall Trap.png" num="197">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dimun Smuggler</name>
+			<text>Whenever this creature deals combat damage to a player, create a Treasure token.
+{3}{U}: Target creature can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/46_Dimun Smuggler.png" num="46">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bekker&apos;s Dark Mirror</name>
+			<text>The next 5 damage that would be dealt to target creature this turn is dealt to another target creature instead.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/4_Bekker&apos;s Dark Mirror.png" num="4">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Experimental Remedy</name>
+			<text>Target creature gains lifelink and indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/75_Experimental Remedy.png" num="75">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Glorious Hunt</name>
+			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. Create a Treasure token.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/145_Glorious Hunt.png" num="145">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Moon Dust</name>
+			<text>Target player sacrifices an attacking or blocking creature of their choice.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/22_Moon Dust.png" num="22">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Offering to the Sea</name>
+			<text>Exile target creature. Its controller creates a 2/2 blue Harpy creature token with flying.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/55_Offering to the Sea.png" num="55">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tourney Joust</name>
+			<text>Put a +1/+1 counter on each of up to two target creatures.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/32_Tourney Joust.png" num="32">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Treason</name>
+			<text>Destroy target creature with mana value X.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/94_Treason.png" num="94">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XB</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gaunter O&apos;Dimm</name>
+			<text>Ward—Discard a card.
+Your opponents can&apos;t untap more than four permanents during their untap steps.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/173_Gaunter O&apos;Dimm.png" num="173">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3UB</manacost>
+				<cmc>5</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Weavess</name>
+			<text>When Weavess enters, create a 1/1 black Bird creature token with flying.
+Whenever another creature you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/96_Weavess.png" num="96">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Relict</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Regis</name>
+			<text>Lifelink
+At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on Regis.
+{6}{B}: Create a 1/1 black Bird creature token with flying.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/90_Regis.png" num="90">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Korathi Heatwave</name>
+			<text>As an additional cost to cast this spell, exile a land you control.
+Korathi Heatwave deals 6 damage to target creature.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/114_Korathi Heatwave.png" num="114">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hemdall GWT</name>
+			<text>This token is all colors.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/9t_Hemdall.png" num="9">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Legendary Creature — Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Grave Hag</name>
+			<text>Deathtouch
+{3}{B}{B}, {T}, Exile five cards from your graveyard: Target player sacrifices a creature of their choice. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/77_Grave Hag.png" num="77">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Necrophage</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mahakam Horn</name>
+			<text>Equipped creature has battle cry. (Whenever that creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+Whenever equipped creature dies, draw a card and create a Treasure token.
+Equip {3}</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/196_Mahakam Horn.png" num="196">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nekker</name>
+			<text>When this creature dies, you may pay {R}. If you do, discard all the cards in your hand, then draw that many cards plus one.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/118_Nekker.png" num="118">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogroid</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nilfgaardian Knight</name>
+			<text>When this creature enters, create a Treasure token.
+{2}, {T}: Each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/85_Nilfgaardian Knight.png" num="85">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Noonwraith</name>
+			<text>Flying, lifelink
+Landfall — Whenever a land you control enters, you may have target creature get -1/-1 until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/86_Noonwraith.png" num="86">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Specter</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dire Bear</name>
+			<text>Landfall — Whenever a land you control enters, you may pay {1}{G}. If you do, create a 2/2 green Bear creature token.
+{6}{G}: Double target Bear&apos;s power and toughness until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/138_Dire Bear.png" num="138">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bear Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dudu</name>
+			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+You may have Dudu enter as a copy of a creature you control, except it has skulk and isn&apos;t legendary.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/49_Dudu.png" num="49">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Relict</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Axii</name>
+			<text>Enchant creature
+You control enchanted creature.
+When you cast a spell, sacrifice this enchantment.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/38_Axii.png" num="38">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shupe</name>
+			<text>When Shupe enters, each opponent may put a creature card with mana value 6 or less from their hand onto the battlefield.
+{1}{G}: Shupe gains your choice of vigilance, reach, or trample until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/157_Shupe.png" num="157">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ogroid</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Villentretenmerth</name>
+			<text>Flying
+Landfall — Whenever a land you control enters, Villentretenmerth deals 4 damage to target creature an opponent controls.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/129_Villentretenmerth.png" num="129">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lambert</name>
+			<text>Outlast {1}{R} ({1}{R}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+At the beginning of combat on your turn, you may pay {R}. When you do, Lambert deals damage equal to his power to any other target chosen at random.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/116_Lambert.png" num="116">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Witcher</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drummond Queensguard</name>
+			<text>Outlast {2}{W} ({2}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+Whenever a creature you control with a +1/+1 counter on it dies, draw a card.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/11_Drummond Queensguard.png" num="11">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oneiromancy</name>
+			<text>Suspend 4—{1}{U} (Pay {1}{U} and exile this card from your hand as a sorcery with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Copy the next spell you cast this turn when you cast it. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/56_Oneiromancy.png" num="56">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spring Equinox</name>
+			<text>Suspend 2—{G} (Pay {G} and exile this card from your hand as a sorcery with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Until end of turn, whenever you tap a land for mana, add an additional one mana of any color.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/159_Spring Equinox.png" num="159">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stammelford&apos;s Tremors</name>
+			<text>Suspend 4—{1}{R} (Pay {1}{R} and exile this card from your hand as a sorcery with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Exile target land. Creatures without flying can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/125_Stammelford&apos;s Tremors.png" num="125">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Foglet</name>
+			<text>Flash
+{1}{G}: Prevent all combat damage that would be dealt to and dealt by this creature this turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/143_Foglet.png" num="143">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Necrophage</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vigo&apos;s Muzzle</name>
+			<text>Enchant creature
+Enchanted creature can&apos;t attack.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/34_Vigo&apos;s Muzzle.png" num="34">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Armor Up</name>
+			<text>Target blocking creature gets +2/+4 until end of turn. You gain 4 life.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/3_Armor Up.png" num="3">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ge&apos;els</name>
+			<text>At the beginning of each combat, reveal the top card of your library. If you reveal a creature card this way, Ge&apos;els becomes a copy of that card until end of turn, except his name is Ge&apos;els.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/174_Ge&apos;els.png" num="174">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Portal</name>
+			<text>{T}: Add one mana of any color. Spend this mana only to cast creature spells.
+{2}, {T}: Return target creature you control to its owners&apos; hand. Activate only during your turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/198_Portal.png" num="198">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Adrenaline Rush</name>
+			<text>Target attacking creature gets +3/+3 and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/99_Adrenaline Rush.png" num="99">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Colossal Ifrit</name>
+			<text>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+This creature can&apos;t attack unless defending player has more cards in hand than you.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/195_Colossal Ifrit.png" num="195">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Combat Engineer</name>
+			<text>{3}{W}: Exile another target artifact or creature you control, then return that card to the battlefield under your control. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/8_Combat Engineer.png" num="8">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Curse of Corruption</name>
+			<text>Curse of Corruption deals 5 damage to target creature and 5 damage to you.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/107_Curse of Corruption.png" num="107">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pulling the Strings</name>
+			<text>Cast this spell only if an opponent lost life this turn.
+Create three Treasure tokens.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/121_Pulling the Strings.png" num="121">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Red Riders</name>
+			<text>When this enchantment enters, exile target land.
+{2}{R}{R}, Sacrifice this enchantment: Attacking creatures get +2/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/123_Red Riders.png" num="123">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spores</name>
+			<text>Destroy target artifact or enchantment. You gain 2 life.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/158_Spores.png" num="158">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Naglfar</name>
+			<text>Exhaust — {X}{B}: Return target creature card with mana value X from your graveyard to the battlefield. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/84_The Naglfar.png" num="84">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trebuchet</name>
+			<text>Reach
+Exhaust — {R}: Exile the top card of your library. If it has suspend, you may suspend it this turn. Otherwise, you may cast it this turn. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/126_Trebuchet.png" num="126">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trial of the Grasses</name>
+			<text>Tap target untapped creature you control, then put three +1/+1 counters on it.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/161_Trial of the Grasses.png" num="161">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Witch Hunter</name>
+			<text>First strike
+Activated abilities of artifacts, creatures, and enchantments cost {2} more to activate (including mana abilities).</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/35_Witch Hunter.png" num="35">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armored Arachas</name>
+			<text>When this creature enters, create two 1/1 red Drone creature tokens with &quot;This creature can&apos;t block.&quot;
+{1}, Sacrifice a Drone: This creature gains indestructible until end of turn. Tap it.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/166_Armored Arachas.png" num="166">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insectoid</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>King Foltest</name>
+			<text>Lifelink
+At the beginning of your end step, if you didn&apos;t cast a spell this turn, create a 1/1 white Soldier creature token.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/178_King Foltest.png" num="178">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Temerian Drummer</name>
+			<text>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+When this creature enters, create two 1/1 white Soldier creature tokens.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/31_Temerian Drummer.png" num="31">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tunnel Drill</name>
+			<text>When this creature enters, each player may discard all the cards in their hand, then draw that many cards.
+Exhaust — {6}{R}: Exile up to three target lands. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/127_Tunnel Drill.png" num="127">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Renew</name>
+			<text>Return target creature card with mana value 3 or less from your graveyard to the battlefield with three +1/+1 counters on it. Exile Renew.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/28_Renew.png" num="28">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Yennefer&apos;s Invocation</name>
+			<text>Put target creature on top of its owner&apos;s library. Create two 1/1 black Bird creature tokens with flying.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/192_Yennefer&apos;s Invocation.png" num="192">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4UB</manacost>
+				<cmc>6</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crach an Craite</name>
+			<text>Landfall — Whenever a land you control enters, create a tapped Treasure token.
+{6}{R}: Crach an Craite deals 3 damage to each opponent.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/104_Crach an Craite.png" num="104">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rot Tosser</name>
+			<text>Deathtouch
+Exhaust — {B}: Destroy target creature an opponent controls that was dealt damage this turn. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/92_Rot Tosser.png" num="92">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Garrison</name>
+			<text>Defender
+Whenever you attack a player, they mill five cards. (They put the top five cards of their library into their graveyard.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/50_Garrison.png" num="50">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Wall</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ale of the Ancestors</name>
+			<text>When this artifact enters, create a Treasure token.
+{2}, {T}: Any number of target players each mill four cards. (They put the top four cards of their library into their graveyard.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/193_Ale of the Ancestors.png" num="193">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Winch</name>
+			<text>Exhaust — {2}{U}: Draw a card. (Activate each exhaust ability only once.)
+{2}{U}, {T}: Copy target activated or triggered ability you control. You may choose new targets for the copy.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/67_Winch.png" num="67">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mastercrafted Spear</name>
+			<text>When this Equipment enters, create a 1/1 white Soldier creature token, then attach this Equipment to it.
+Equipped creature gets +1/+0.
+Equip {1}</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/21_Mastercrafted Spear.png" num="21">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Forktail</name>
+			<text>Flying
+Landfall — Whenever a land you control enters, this creature gains double strike and battle cry until end of turn. (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/14_Forktail.png" num="14">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scoia&apos;tael Neophyte</name>
+			<text>Outlast {1}{G} ({1}{G}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+{T}, Remove a +1/+1 counter from this creature: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/156_Scoia&apos;tael Neophyte.png" num="156">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blue Mountain Elite</name>
+			<text>Landfall — Whenever a land you control enters, target creature you control gains deathtouch until end of turn. Whenever that creature deals combat damage to a player this turn, draw a card.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/135_Blue Mountain Elite.png" num="135">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crow Clan Druid</name>
+			<text>Outlast {3}{B} ({3}{B}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+Whenever you activate this creature&apos;s outlast ability, create a 1/1 black Bird creature token with flying.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/71_Crow Clan Druid.png" num="71">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dimun Pirate</name>
+			<text>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+When this creature dies, create a 2/2 blue Harpy creature token with flying.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/109_Dimun Pirate.png" num="109">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blue Stripes Commando</name>
+			<text>This creature&apos;s power and toughness are each equal to the number of creatures you control.
+Untap all creatures you control during each other player&apos;s untap step.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/5_Blue Stripes Commando.png" num="5">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Water Hag</name>
+			<text>At the beginning of combat on your turn, target player mills three cards. Then if each opponent has fewer cards in their graveyard than you, this creature can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/64_Water Hag.png" num="64">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Necrophage</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fiend</name>
+			<text>This creature can&apos;t be blocked by more than one creature.
+Spells you cast cost {2} more to cast.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/142_Fiend.png" num="142">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Relict</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Epidemic</name>
+			<text>Landfall — Whenever a land you control enters, you may destroy target creature. If you do, its controller gains control of this enchantment.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/74_Epidemic.png" num="74">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Biting Frost</name>
+			<text>Tap one or two target creatures. Distribute three stun counters among them. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/39_Biting Frost.png" num="39">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mad Charge</name>
+			<text>Target creature gets +2/+1 until end of turn. Create a Treasure token.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/117_Mad Charge.png" num="117">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scorch</name>
+			<text>Roll a six-sided die. You may reroll that die up to three times. Destroy all permanents with mana value equal to the final result.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/185_Scorch.png" num="185">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Teleportation</name>
+			<text>Target creature gets +1/+1 and gains flying until end of turn. Untap it.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/62_Teleportation.png" num="62">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Saesenthessis</name>
+			<text>Flying, trample
+When Saesenthessis enters, put a shield counter on another target creature you control. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/184_Saesenthessis.png" num="184">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aglaïs</name>
+			<text>{1}{G}, {T}: Put the top card of your library onto the battlefield face down. It&apos;s a land with &quot;{T}: Add one mana of any color.&quot;
+{6}{G}, {T}: You gain 5 life.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/132_Aglaïs.png" num="132">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dryad Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sigismund Dijkstra</name>
+			<text>When Sigismund Dijkstra enters, create a Treasure token.
+Whenever you sacrifice a Treasure, the next spell you cast this turn may be cast as though it had flash.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/60_Sigismund Dijkstra.png" num="60">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Priscilla</name>
+			<text>When Priscilla enters, move any number of +1/+1 counters from any number of creatures you control onto other creatures. Then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/58_Priscilla.png" num="58">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cahir Dyffryn</name>
+			<text>Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+Whenever you attack, tap target creature defending player controls.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/6_Cahir Dyffryn.png" num="6">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>King of Beggars</name>
+			<text>When King of Beggars enters, up to one target creature with mana value 3 or less becomes a Treasure artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color&quot; and loses all other card types and abilities.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/80_King of Beggars.png" num="80">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eskel</name>
+			<text>Outlast {G} ({G}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+{3}{G}: Put target card from your graveyard on top of your library.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/141_Eskel.png" num="141">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Witcher</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kayran</name>
+			<text>When you cast this spell, exile target nonland permanent. You may cast that card for as long as it remains exiled.
+All creatures able to block Kayran do so.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/1_Kayran.png" num="1">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Leviathan</type>
+				<maintype>Creature</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caretaker</name>
+			<text>Menace
+When Caretaker enters, target player mills six cards, then you may return a creature card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/70_Caretaker.png" num="70">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Relict</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Morvudd</name>
+			<text>Landfall — Whenever a land you control enters, Morvudd gets +2/+2 until end of turn.
+Whenever you cast a spell, Morvudd gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/152_Morvudd.png" num="152">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Relict</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dettlaff</name>
+			<text>Flying
+Whenever Dettlaff attacks, you may sacrifice another creature. When you do, he deals damage equal to the sacrificed creature&apos;s power to target creature.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/108_Dettlaff.png" num="108">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vampire Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Assassination</name>
+			<text>Suspend 3—{1}{B} (Pay {1}{B} and exile this card from your hand as a sorcery with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Destroy target creature.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/68_Assassination.png" num="68">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Champion&apos;s Charge</name>
+			<text>Suspend 4—{G} (Pay {G} and exile this card from your hand as a sorcery with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Target creature gets +4/+4 until end of turn. Up to one target creature blocks it this turn if able.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/136_Champion&apos;s Charge.png" num="136">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Commander&apos;s Horn</name>
+			<text>Suspend 2—{W} (Pay {W} and exile this card from your hand as a sorcery with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Creatures you control get +2/+2 and gain vigilance and lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/9_Commander&apos;s Horn.png" num="9">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Morkvarg</name>
+			<text>Morkvarg enters tapped.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/83_Morkvarg.png" num="83">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alzur&apos;s Thunder</name>
+			<text>Alzur&apos;s Thunder deals 4 damage to target creature.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/100_Alzur&apos;s Thunder.png" num="100">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>An Craite Greatsword</name>
+			<text>This spell costs {1} less to cast for each creature that attacked this turn.
+Whenever this creature is dealt damage, it deals that much damage to any target.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/105_An Craite Greatsword.png" num="105">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>An Craite Warcrier</name>
+			<text>First strike, haste
+Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/106_An Craite Warcrier.png" num="106">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arachas Behemoth</name>
+			<text>Vigilance, battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+At the beginning of each upkeep, create a 1/1 red Drone creature token with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/165_Arachas Behemoth.png" num="165">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insectoid</type>
+				<maintype>Creature</maintype>
+				<manacost>4RG</manacost>
+				<cmc>6</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arachas Venom</name>
+			<text>Target creature gains deathtouch until end of turn. Create two 1/1 red Drone creature tokens with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/133_Arachas Venom.png" num="133">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aretuza Adept</name>
+			<text>When this creature enters, exile target instant or sorcery card from your graveyard. If it has suspend, you may suspend it this turn. Otherwise, you may cast it this turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/36_Aretuza Adept.png" num="36">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Artefact Compression</name>
+			<text>Until end of turn, target creature becomes an artifact creature with base power and toughness 1/1.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/37_Artefact Compression.png" num="37">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Avallac&apos;h</name>
+			<text>As an additional cost to cast creature spells, you may pay any amount of mana. If you do, that creature enters with that many additional +1/+1 counters on it.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/167_Avallac&apos;h.png" num="167">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Backup Plan</name>
+			<text>Flash
+Enchant creature
+Enchanted creature gets +1/+3 and has reach.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/134_Backup Plan.png" num="134">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bloody Flail</name>
+			<text>Equipped creature gets +3/+2 and loses flying.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/102_Bloody Flail.png" num="102">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ciri</name>
+			<text>When Ciri enters, put a +1/+1 counter on target creature.
+{2}{W}: Exile Ciri. Return her to the battlefield tapped under her owner&apos;s control at the beginning of the next upkeep. (She evades Pass the Round.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/7_Ciri.png" num="7">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Witcher</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Consume Blood</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Put X +1/+1 counters on target creature you control, where X is the sacrificed creature&apos;s power.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/137_Consume Blood.png" num="137">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Copy GWT</name>
+			<text></text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/1t_Copy.png" num="1">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token</type>
+				<maintype>Token</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Coral</name>
+			<text>Whenever you cast your second spell each turn, create a 2/2 blue Harpy creature token with flying.
+{T}: Draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/41_Coral.png" num="41">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crow&apos;s Eye</name>
+			<text>Look at target player&apos;s hand. You may choose a card from it. If you do, that player discards that card, then draws a card.
+Create a 1/1 black Bird creature token with flying.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/72_Crow&apos;s Eye.png" num="72">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cynthia</name>
+			<text>Hexproof
+When Cynthia enters, target opponent creates a 4/4 colorless Golem artifact creature token.
+At the beginning of your end step, create a Treasure token.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/168_Cynthia.png" num="168">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Damned Sorceress</name>
+			<text>When this creature enters, target creature an opponent controls loses all abilities for as long as this creature remains on the battlefield.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/42_Damned Sorceress.png" num="42">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Specter Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dandelion</name>
+			<text>Whenever you attack, choose target creature you control. Flip a coin. If you win the flip, put a +1/+1 counter on it. Otherwise, remove all counters from it.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/169_Dandelion.png" num="169">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Delirium</name>
+			<text>Enchant creature
+{1}{U}: Tap enchanted creature and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/44_Delirium.png" num="44">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Djinn</name>
+			<text>Flying
+Whenever this creature enters or attacks, choose one that hasn&apos;t been chosen —
+• Return target creature to its owner&apos;s hand.
+• Target creature can&apos;t be blocked this turn.
+• Untap all creatures you control.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/48_Djinn.png" num="48">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Djinn</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emissary GWT</name>
+			<text>This creature enters under the control of an opponent of your choice.
+When this creature enters, its owner draws a card and creates two Treasure tokens.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/73t_Emissary.png" num="73">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Spy</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<related>Treasure GWT</related>
+		</card>
+		<card>
+			<name>Francesca Findabair</name>
+			<text>Flying
+{2}{G}{U}: Until end of turn, target creature gains flying and &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/172_Francesca Findabair.png" num="172">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Freya&apos;s Blessing</name>
+			<text>You gain 1 life for each card in your graveyard. Return target card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/144_Freya&apos;s Blessing.png" num="144">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gascon</name>
+			<text>Haste
+{1}, {T}: Flip a coin. If you win the flip, create a Treasure token.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/111_Gascon.png" num="111">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Geralt of Rivia</name>
+			<text>First strike, ward {2}
+{2}, Reveal this card from your hand: Put a bounty counter on target creature.
+When Geralt of Rivia attacks, destroy target creature with a bounty counter on it.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/175_Geralt of Rivia.png" num="175">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Witcher</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghoul</name>
+			<text>This creature enters with a +1/+1 counter on it for each creature card in your graveyard.
+{2}{B}, Remove three +1/+1 counters from this creature: You draw a card and you lose 1 life.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/76_Ghoul.png" num="76">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Necrophage</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harpy Nest</name>
+			<text>Defender
+{T}: Put a hatchling counter on this creature. Then you may pay {U} and remove three hatching counters from it. If you do, create a tapped 2/2 blue Harpy creature token with flying.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/51_Harpy Nest.png" num="51">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Harpy Egg</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Iorveth</name>
+			<text>Reach
+{1}{G}, {T}, Discard a card: Destroy target creature with flying.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/147_Iorveth.png" num="147">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ithlinne Aegli</name>
+			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+{T}: Lose all unspent mana, then untap all lands you control.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/148_Ithlinne Aegli.png" num="148">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keira Metz</name>
+			<text>When Keira Metz enters, tap target creature an opponent controls. Create a token that&apos;s a copy of that creature, except it&apos;s 1/1.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/52_Keira Metz.png" num="52">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lamia</name>
+			<text>Flying
+Landfall — Whenever a land you control enters, another target creature you control gets +1/+0 and gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/53_Lamia.png" num="53">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lamia</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magne Division</name>
+			<text>Whenever you cast a spell, you may pay {1}. If you do, create a tapped 1/1 white Soldier creature token.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/19_Magne Division.png" num="19">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mahakam Defender</name>
+			<text>Defender
+Whenever you activate an ability that isn&apos;t a mana ability, put a +1/+1 counter on this creature. This ability triggers only once each turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/150_Mahakam Defender.png" num="150">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mercenary Contract</name>
+			<text>Each player secretly chooses a number, then those numbers are revealed. Each player with the highest number loses that much life. If you&apos;re one of those players, create six 1/1 white Soldier creature tokens. Otherwise, create three of those tokens.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/179_Mercenary Contract.png" num="179">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Morenn</name>
+			<text>Reach
+{1}{G}{U}: Turn Morenn and target creature an opponent controls with mana value 3 or less face down. They&apos;re lands with &quot;{T}: Add one mana of any color.&quot;</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/151_Morenn.png" num="151">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dryad Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Operator</name>
+			<text>Whenever you cast your first creature spell each turn, you may pay {R}. If you do, create a token that&apos;s a copy of that creature, except it has haste and isn&apos;t legendary. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/119_Operator.png" num="119">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Beast Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pact</name>
+			<text>Suspend 2—{3}{B} (Pay {3}{B} and exile this card from your hand as a sorcery with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Target player&apos;s life total becomes 13.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/87_Pact.png" num="87">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pass the Round GWT</name>
+			<text>{0}: Exile all permanents. End the turn. Take an extra turn after this one. Activate only as a sorcery and only once. (Discard down to your maximum hand size.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/10t_Pass the Round.png" num="10">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Emblem</type>
+				<maintype>Emblem</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+			<related>Gwent Cube Rules GWT</related>
+		</card>
+		<card>
+			<name>Philippa Eilhart</name>
+			<text>Whenever Philippa Eilhart attacks, defending player loses 2 life.
+{U}: Until end of turn, Philippa Eilhart becomes a Bird with base power and toughness 1/1 and gains flying.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/180_Philippa Eilhart.png" num="180">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Phoenix</name>
+			<text>Flying
+If this creature would leave the battlefield, exile it instead of putting it anywhere else. You may cast this card for as long as it remains exiled. (This includes Pass the Round.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/120_Phoenix.png" num="120">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phoenix</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plumard</name>
+			<text>Flying
+This creature can&apos;t block.
+{1}{B}, {T}, Sacrifice another creature: You draw a card and you lose 1 life.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/89_Plumard.png" num="89">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prepare an Ambush</name>
+			<text>Draw two cards, then manifest a card from your hand. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it&apos;s a creature card.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/154_Prepare an Ambush.png" num="154">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Princess Pavetta</name>
+			<text>Outlast {U} ({U}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+{U}, {T}, Remove two +1/+1 counters from among creatures you control: Copy target instant or sorcery spell you control. You may choose new targets for the copy.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/57_Princess Pavetta.png" num="57">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Queen Meve</name>
+			<text>At the beginning of each combat, you may choose target creature. It can&apos;t attack or block this turn unless its controller pays {1}.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/181_Queen Meve.png" num="181">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ragh Nar Roog GWT</name>
+			<text>When this enchantment enters, create a legendary 3/4 Warrior creature token named Hemdall that&apos;s all colors.
+At the beginning of your upkeep, roll a six-sided die. If the result is 6, destroy all nonland permanents.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/182t_Ragh Nar Roog.png" num="182">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+			<related>Hemdall GWT</related>
+		</card>
+		<card>
+			<name>Red Haze</name>
+			<text>Target creature you don&apos;t control fights another target creature you don&apos;t control. (Each deals damage equal to its power to the other.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/122_Red Haze.png" num="122">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reinforcements</name>
+			<text>Suspend 4—{1}{W} (Pay {1}{W} and exile this card from your hand as a sorcery with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it.)
+Create three 1/1 white Soldier creature tokens.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/27_Reinforcements.png" num="27">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Roach</name>
+			<text>Whenever Roach attacks while saddled, put a +1/+1 counter on another target creature.
+Saddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/29_Roach.png" num="29">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shani</name>
+			<text>Outlast {W} ({W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+Whenever Shani becomes tapped, another target creature you control gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/30_Shani.png" num="30">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slyzard</name>
+			<text>Cast this spell only if you&apos;ve cast another spell this turn.
+Flying, battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/61_Slyzard.png" num="61">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Great Oak</name>
+			<text>As The Great Oak enters, secretly choose two from among reach, deathtouch, lifelink, and hexproof.
+{B}{G}, Reveal your choice: Creatures you control gain the chosen abilities until end of turn. Activate only once.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/177_The Great Oak.png" num="177">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Three Player Rules GWT</name>
+			<text>The starting player doesn&apos;t skip the draw step of their first turn.
+If one or more players would lose the game, the player with the highest life total wins the game. If tied, the player whose turn it is wins (or the next player in turn order).</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/11t_Three Player Rules.png" num="11">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+			<related>Pass the Round GWT</related>
+		</card>
+		<card>
+			<name>Triss Merigold</name>
+			<text>Haste
+Triss Merigold attacks each combat if able.
+Whenever you cast an instant or sorcery spell, put a +1/+1 counter on Triss Merigold.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/187_Triss Merigold.png" num="187">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unseen Elder</name>
+			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
+Flying, lifelink
+Outlast {B} ({B}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/95_Unseen Elder.png" num="95">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elder Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vesemir</name>
+			<text>Creatures you control have outlast {2}. ({2}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+Each creature you control with a +1/+1 counter on it has lifelink.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/188_Vesemir.png" num="188">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Witcher</type>
+				<maintype>Creature</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vilgefortz</name>
+			<text>Outlast {2} ({2}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+At the beginning of your end step, each opponent loses life equal to Vilgefortz&apos;s power unless they sacrifice a creature of their choice.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/189_Vilgefortz.png" num="189">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wild Boar of the Sea</name>
+			<text>When this creature enters, each opponent creates a 2/2 blue Harpy creature token with flying.
+Exhaust — {3}{U}{U}: Target player mills half their library, rounded up. (Activate each exhaust ability only once.)</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/66_Wild Boar of the Sea.png" num="66">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Woodland Spirit</name>
+			<text>Hexproof
+Landfall — Whenever a land you control enters, put a +1/+1 counter on another target creature you control.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/190_Woodland Spirit.png" num="190">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Relict</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yennefer of Vengerberg</name>
+			<text>When Yennefer of Vengerberg enters, target opponent chooses an order for the cards in their hand, then reveals them one by one until you say stop. That player then discards the most recently revealed card.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/191_Yennefer of Vengerberg.png" num="191">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yrden</name>
+			<text>Creatures attacking you get -1/-1.</text>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/98_Yrden.png" num="98">GWT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
