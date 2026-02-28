@@ -3299,11 +3299,11 @@
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
-            "shape": "token",
+            "shape": "normal",
             "set": "GWT",
             "loyalty": "",
             "artist": "Bruno Biazotto",
-            "notes": "!tokens Treasure GWT",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3755,11 +3755,11 @@
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "token",
+            "shape": "normal",
             "set": "GWT",
             "loyalty": "",
             "artist": "Anna Podedworna",
-            "notes": "!tokens Hemdall GWT",
+            "notes": "",
             "image_type": "png"
         },
         {

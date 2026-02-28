@@ -2991,10 +2991,10 @@ Whenever this creature enters or attacks, choose one that hasn&apos;t been chose
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Emissary GWT</name>
+			<name>Emissary</name>
 			<text>This creature enters under the control of an opponent of your choice.
 When this creature enters, its owner draws a card and creates two Treasure tokens.</text>
-			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/73t_Emissary.png" num="73">GWT</set>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/73_Emissary.png" num="73">GWT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3007,8 +3007,6 @@ When this creature enters, its owner draws a card and creates two Treasure token
 				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<token>1</token>
-			<related>Treasure GWT</related>
 		</card>
 		<card>
 			<name>Francesca Findabair</name>
@@ -3414,10 +3412,10 @@ This creature can&apos;t block.
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Ragh Nar Roog GWT</name>
+			<name>Ragh Nar Roog</name>
 			<text>When this enchantment enters, create a legendary 3/4 Warrior creature token named Hemdall that&apos;s all colors.
 At the beginning of your upkeep, roll a six-sided die. If the result is 6, destroy all nonland permanents.</text>
-			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/182t_Ragh Nar Roog.png" num="182">GWT</set>
+			<set rarity="common" picurl="https://Syphren.github.io/sets/GWT-files/img/182_Ragh Nar Roog.png" num="182">GWT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3429,8 +3427,6 @@ At the beginning of your upkeep, roll a six-sided die. If the result is 6, destr
 				<coloridentity>WR</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
-			<token>1</token>
-			<related>Hemdall GWT</related>
 		</card>
 		<card>
 			<name>Red Haze</name>

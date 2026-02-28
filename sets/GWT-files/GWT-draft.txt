@@ -1737,7 +1737,7 @@
 			"type": "Creature — Human Spy",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Syphren.github.io/sets/GWT-files/img/73t_Emissary.png"
+				"en": "https://Syphren.github.io/sets/GWT-files/img/73_Emissary.png"
 			}
 		},
 		{
@@ -1977,7 +1977,7 @@
 			"type": "Legendary Enchantment",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Syphren.github.io/sets/GWT-files/img/182t_Ragh Nar Roog.png"
+				"en": "https://Syphren.github.io/sets/GWT-files/img/182_Ragh Nar Roog.png"
 			}
 		},
 		{
@@ -2297,6 +2297,7 @@
 	8 Dandelion
 	8 Delirium
 	8 Djinn
+	8 Emissary
 	8 Francesca Findabair
 	8 Freya's Blessing
 	8 Gascon
@@ -2319,6 +2320,7 @@
 	8 Prepare an Ambush
 	8 Princess Pavetta
 	8 Queen Meve
+	8 Ragh Nar Roog
 	8 Red Haze
 	8 Reinforcements
 	8 Roach
@@ -2496,6 +2498,7 @@
 	8 Dandelion
 	8 Delirium
 	8 Djinn
+	8 Emissary
 	8 Francesca Findabair
 	8 Freya's Blessing
 	8 Gascon
@@ -2518,6 +2521,7 @@
 	8 Prepare an Ambush
 	8 Princess Pavetta
 	8 Queen Meve
+	8 Ragh Nar Roog
 	8 Red Haze
 	8 Reinforcements
 	8 Roach
@@ -2695,6 +2699,7 @@
 	12 Dandelion
 	12 Delirium
 	12 Djinn
+	12 Emissary
 	12 Francesca Findabair
 	12 Freya's Blessing
 	12 Gascon
@@ -2717,6 +2722,7 @@
 	12 Prepare an Ambush
 	12 Princess Pavetta
 	12 Queen Meve
+	12 Ragh Nar Roog
 	12 Red Haze
 	12 Reinforcements
 	12 Roach
@@ -2894,6 +2900,7 @@
 	6 Dandelion
 	6 Delirium
 	6 Djinn
+	6 Emissary
 	6 Francesca Findabair
 	6 Freya's Blessing
 	6 Gascon
@@ -2916,6 +2923,7 @@
 	6 Prepare an Ambush
 	6 Princess Pavetta
 	6 Queen Meve
+	6 Ragh Nar Roog
 	6 Red Haze
 	6 Reinforcements
 	6 Roach

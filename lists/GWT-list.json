@@ -216,8 +216,8 @@
         "position": ""
     },
     {
-        "card_name": "Epidemic",
-        "number": 74,
+        "card_name": "Emissary",
+        "number": 73,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -256,8 +256,8 @@
         "position": ""
     },
     {
-        "card_name": "Experimental Remedy",
-        "number": 75,
+        "card_name": "Epidemic",
+        "number": 74,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -296,8 +296,8 @@
         "position": ""
     },
     {
-        "card_name": "Ghoul",
-        "number": 76,
+        "card_name": "Experimental Remedy",
+        "number": 75,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -336,8 +336,8 @@
         "position": ""
     },
     {
-        "card_name": "Grave Hag",
-        "number": 77,
+        "card_name": "Ghoul",
+        "number": 76,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -376,8 +376,8 @@
         "position": ""
     },
     {
-        "card_name": "Hym",
-        "number": 78,
+        "card_name": "Grave Hag",
+        "number": 77,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -416,8 +416,8 @@
         "position": ""
     },
     {
-        "card_name": "Imperial Manticore",
-        "number": 79,
+        "card_name": "Hym",
+        "number": 78,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -456,8 +456,8 @@
         "position": ""
     },
     {
-        "card_name": "King of Beggars",
-        "number": 80,
+        "card_name": "Imperial Manticore",
+        "number": 79,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -496,8 +496,8 @@
         "position": ""
     },
     {
-        "card_name": "Letho of Gulet",
-        "number": 81,
+        "card_name": "King of Beggars",
+        "number": 80,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -536,8 +536,8 @@
         "position": ""
     },
     {
-        "card_name": "Manticore Venom",
-        "number": 82,
+        "card_name": "Letho of Gulet",
+        "number": 81,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -576,8 +576,8 @@
         "position": ""
     },
     {
-        "card_name": "Morkvarg",
-        "number": 83,
+        "card_name": "Manticore Venom",
+        "number": 82,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -616,8 +616,8 @@
         "position": ""
     },
     {
-        "card_name": "The Naglfar",
-        "number": 84,
+        "card_name": "Morkvarg",
+        "number": 83,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -656,8 +656,8 @@
         "position": ""
     },
     {
-        "card_name": "Nilfgaardian Knight",
-        "number": 85,
+        "card_name": "The Naglfar",
+        "number": 84,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -696,8 +696,8 @@
         "position": ""
     },
     {
-        "card_name": "Noonwraith",
-        "number": 86,
+        "card_name": "Nilfgaardian Knight",
+        "number": 85,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -736,8 +736,8 @@
         "position": ""
     },
     {
-        "card_name": "Pact",
-        "number": 87,
+        "card_name": "Noonwraith",
+        "number": 86,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -776,8 +776,8 @@
         "position": ""
     },
     {
-        "card_name": "Parasite",
-        "number": 88,
+        "card_name": "Pact",
+        "number": 87,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -816,8 +816,8 @@
         "position": ""
     },
     {
-        "card_name": "Plumard",
-        "number": 89,
+        "card_name": "Parasite",
+        "number": 88,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -856,8 +856,8 @@
         "position": ""
     },
     {
-        "card_name": "Regis",
-        "number": 90,
+        "card_name": "Plumard",
+        "number": 89,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -896,8 +896,8 @@
         "position": ""
     },
     {
-        "card_name": "Restore",
-        "number": 91,
+        "card_name": "Regis",
+        "number": 90,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -936,8 +936,8 @@
         "position": ""
     },
     {
-        "card_name": "Rot Tosser",
-        "number": 92,
+        "card_name": "Restore",
+        "number": 91,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -976,8 +976,8 @@
         "position": ""
     },
     {
-        "card_name": "Torrential Rain",
-        "number": 93,
+        "card_name": "Rot Tosser",
+        "number": 92,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -1016,8 +1016,8 @@
         "position": ""
     },
     {
-        "card_name": "Treason",
-        "number": 94,
+        "card_name": "Torrential Rain",
+        "number": 93,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -1056,8 +1056,8 @@
         "position": ""
     },
     {
-        "card_name": "Unseen Elder",
-        "number": 95,
+        "card_name": "Treason",
+        "number": 94,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -1096,8 +1096,8 @@
         "position": ""
     },
     {
-        "card_name": "Weavess",
-        "number": 96,
+        "card_name": "Unseen Elder",
+        "number": 95,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -1136,8 +1136,8 @@
         "position": ""
     },
     {
-        "card_name": "White Frost",
-        "number": 97,
+        "card_name": "Weavess",
+        "number": 96,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -1176,8 +1176,8 @@
         "position": ""
     },
     {
-        "card_name": "Yrden",
-        "number": 98,
+        "card_name": "White Frost",
+        "number": 97,
         "shape": "normal",
         "set": "GWT",
         "rotated": false,
@@ -1216,7 +1216,12 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "Yrden",
+        "number": 98,
+        "shape": "normal",
+        "set": "GWT",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Villentretenmerth",
@@ -1567,7 +1572,12 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "Ragh Nar Roog",
+        "number": 182,
+        "shape": "normal",
+        "set": "GWT",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Ge'els",
@@ -1808,20 +1818,10 @@
         "position": ""
     },
     {
-        "card_name": "Emissary",
-        "number": 73,
-        "shape": "token",
-        "set": "GWT",
-        "rotated": false,
-        "position": ""
+        "card_name": "e"
     },
     {
-        "card_name": "Ragh Nar Roog",
-        "number": 182,
-        "shape": "token",
-        "set": "GWT",
-        "rotated": false,
-        "position": ""
+        "card_name": "e"
     },
     {
         "card_name": "er"

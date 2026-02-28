@@ -3131,11 +3131,11 @@
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
-            "shape": "token",
+            "shape": "normal",
             "set": "GWT",
             "loyalty": "",
             "artist": "Bruno Biazotto",
-            "notes": "!tokens Treasure GWT"
+            "notes": ""
         },
         {
             "card_name": "Francesca Findabair",
@@ -3563,11 +3563,11 @@
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "token",
+            "shape": "normal",
             "set": "GWT",
             "loyalty": "",
             "artist": "Anna Podedworna",
-            "notes": "!tokens Hemdall GWT"
+            "notes": ""
         },
         {
             "card_name": "Red Haze",

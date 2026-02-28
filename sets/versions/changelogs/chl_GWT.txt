@@ -1,4 +1,14 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+Emissary
+
+Ragh Nar Roog
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Consume Blood added.
